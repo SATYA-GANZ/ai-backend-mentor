@@ -19,8 +19,6 @@ COPY . /code/
 # Jika Anda memutuskan untuk menggunakan path /data/db untuk persistensi ChromaDB di platform tertentu,
 # baris ini akan membuat direktori tersebut dan mengatur izinnya.
 # Jika ChromaDB Anda disimpan relatif terhadap /code (misalnya di /code/db), baris ini tidak terlalu kritikal.
-#mkdir -p /data/db && chown -R 1000:1000 /data
-
 # Buka port 8000 agar bisa diakses
 EXPOSE 8000
 
